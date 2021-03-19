@@ -1,9 +1,13 @@
-
-body {
-    background-color:rgb(240, 159, 233);
+h1{
+    border: 1px solid gray;
+    font-family: monospace;
+    font-size: 300%;
+    margin-top: 50px;
+    padding: 15px;
 }
 p {
-     border:2px solid dodgerblue;
+    border:2px solid dodgerblue;
     color:springgreen;
+    padding: 30px;
 }
 
