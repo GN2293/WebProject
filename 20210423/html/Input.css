@@ -1,0 +1,24 @@
+/*For Input Data Table*/
+#input{
+    align-items: center;
+}
+
+#input table{
+    border: 1px solid black;
+    margin: auto;
+    padding: 0px;
+    /*border-collapse: collapse;*/
+    border-radius: 5px;
+}
+
+#input table tr th{
+    margin: 0px;
+    padding: 0px;
+    background-color: violet;
+    border: 0px;
+}
+
+div.center#button{
+    width: 35px;
+    margin: auto;
+}
