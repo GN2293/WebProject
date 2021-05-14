@@ -13,4 +13,4 @@
 ## Reocrd of Designed
 + 2021/05/14 Ideal Create
 + 2021/05/14 建立资料库
-
++ 2021/05/14 站台名称:GN
