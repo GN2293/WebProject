@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <form class="form-inline" action="Search.php">
+            <div class="form-group">
+                <label for="user">Name:</label>
+                <input type="text" class="form-control" id="user">
+            </div>
+            <br>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" class="form-control" id="email">
+            </div>
+            <br>
+            <div class="form-check-inline">
+                <label class="form-check-label">
+                    <input type="checkbox" class="form-check-input" value="">兒童
+                </label>
+            </div>
+            <div class="form-check-inline">
+                <label class="form-check-label">
+                    <input type="checkbox" class="form-check-input" value="">青少年
+                </label>
+            </div>
+            <div class="form-check-inline">
+                <label class="form-check-label">
+                    <input type="checkbox" class="form-check-input" value="">成年人
+                </label>
+            </div>
+            <div class="form-check-inline">
+                <label class="form-check-label">
+                    <input type="radio" class="form-check-input" name="optradio">在學
+                </label>
+            </div>
+            <div class="form-check-inline">
+                <label class="form-check-label">
+                    <input type="radio" class="form-check-input" name="optradio">工作
+                </label>
+            </div>
+            <div class="form-check-inline disabled">
+                <label class="form-check-label">
+                    <input type="radio" class="form-check-input" name="optradio">宅在家
+                </label>
+            </div>
+            <br>
+            <button type="submit" class="btn btn-primary">Submit</button>
+            <br>
+            <div class="input-group mb-3">
+                <div class="input-group-prepend">
+                    <span class="input-group-text">@</span>
+                </div>
+                <input type="text" class="form-control" placeholder="Username">
+            </div>
+            <br>
+            <div class="input-group mb-3">
+                <input type="text" class="form-control" placeholder="Your Email">
+                <div class="input-group-append">
+                    <span class="input-group-text">@example.com</span>
+                </div>
+            </div>
+            <div class="input-group mb-3">
+                <div class="input-group-prepend">
+                    <button class="btn btn-outline-primary" type="button">Basic Button</button>
+                </div>
+                <input type="text" class="form-control" placeholder="Some text">
+            </div>
+            <br>
+            <div class="input-group mb-3">
+                <input type="text" class="form-control" placeholder="Search">
+                <div class="input-group-append">
+                    <button class="btn btn-success" type="submit">Go</button>
+                </div>
+            </div>
+            <div class="input-group mt-3 mb-3">
+                <div class="input-group-prepend">
+                    <button type="button" class="btn btn-outline-secondary dropdown-toggle" data-toggle="dropdown">
+                    Dropdown button
+                    </button>
+                    <div class="dropdown-menu">
+                    <a class="dropdown-item" href="#">Link 1</a>
+                    <a class="dropdown-item" href="#">Link 2</a>
+                    <a class="dropdown-item" href="#">Link 3</a>
+                    </div>
+                </div>
+                <input type="text" class="form-control" placeholder="Username">
+            </div>
+        </form>
+    </div>
+</body>
+</html>

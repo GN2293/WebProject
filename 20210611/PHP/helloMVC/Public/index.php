@@ -6,5 +6,5 @@ define('APP_DEBUG', true);
 // 網站根目錄
 define('APP_URL', 'http://localhost/helloMVC/');
 // 載入框架
-require './kernal/kernal.php';
+require '../Kernal/Kernal.php';
 ?>
