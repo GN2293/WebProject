@@ -1,0 +1,32 @@
+body{
+    font-family: monospace;
+    padding: 5px;
+    background-color: antiquewhite;
+}
+
+.header{
+    text-align: center;
+}
+
+.topnav{
+    background-color: beige;
+}
+
+.topnav a{
+    float: left;
+    color: bisque;
+    text-align: center;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+.topnav a:hover{
+    background-color: blanchedalmond;
+    color: black;
+}
+
+.card{
+    background-color: burlywood;
+    padding: 15px;
+    margin-top: 15px;
+}
