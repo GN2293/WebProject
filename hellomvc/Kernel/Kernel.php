@@ -23,6 +23,13 @@ class Kernel{
         $this->_config->show();
 
         include ('Router.php');
+        if (preg_match('/.js/i',$this->_router->request)){
+            include ('../statics/js/'.$this->_router->request);
+        }elseif (preg_match('/.css/i',$this->_router->request)){
+            include ('../statics/css/'.$this->_router->request);
+        }elseif (preg_match('/\./i',$this->_router->request)){
+            include ('../statics/images/'.$this->_router->request);
+        }else{
         $uri = $this->_router->run();
         $controller = 'App\\Controllers\\'.$uri[1];
 
@@ -32,7 +39,7 @@ class Kernel{
             (new $controller($uri[0]))->run();
         }
     }
-    public function LoadClass($className){
+    //public function LoadClass($className){
         $classMap = $this->classMap();
 
         if(isset($classMap[$className])){
